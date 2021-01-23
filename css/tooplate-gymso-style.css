@@ -244,16 +244,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
   /*---------------------------------------
-    FEATURE          
-  -----------------------------------------*/
-
-  .feature {
-    background: var(--dark-color);
-    padding: 5rem 0;
-  }
-
-
-  /*---------------------------------------
      MENU             
   -----------------------------------------*/
 
@@ -370,6 +360,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
     vertical-align: middle;
     min-height: 100vh;
     position: relative;
+  }
+
+  .hero-headline {
+    font-weight: 100;
   }
 
 

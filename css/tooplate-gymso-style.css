@@ -402,78 +402,77 @@ https://www.tooplate.com/view/2119-gymso-fitness
     text-align: center;
   }
 
-
+  
   /*---------------------------------------
-     SCHEDULE             
+      skills & Bar            
   -----------------------------------------*/
 
-  .schedule {
-    background: var(--dark-color);
-  }
+#resumeProficiencies {
+	float: left;
+	clear: right;
+	width: 500px;
+	margin: 20px 0px 30px 30px;
+}
 
-  .schedule-table {
-    display: table;
-    border: 0;
-    text-align: center;
-  }
+#resumeProficienciesTop {
+	float: left;
+	clear: right;
+	width: 100%;
+	margin: -5px 0px 0px 0px;
+	text-align: left;
+	font-weight: 600;
+}
 
-  .schedule-table strong,
-  .schedule-table span {
-    display: block;
-    text-align: center;
-  }
+#resumeProficienciesBottom {
+	float: left;
+	clear: right;
+	width: 80%;
+	margin: 2px 0px 0px 0px;
+}
 
-  .schedule-table strong {
-    color: var(--white-color);
-  }
+.progress {
+	background:#e9e5e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #dddddd, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #dddddd, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #dddddd, #e9e5e2);
+	background-image: -o-linear-gradient(top, #dddddd, #e9e5e2);
+	background-image: linear-gradient(top, #dddddd, #e9e5e2);  
+	height:20px; 
+	border-radius: 0px;
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	  
+}
 
-  .schedule-table span {
-    color: var(--gray-color);
-  }
+.adobe, .html, .css, .jquery, .javascript, .bootstrap, .wordpress, .ui, .ux, .rwd, .mobile, .rapidproto {
 
-  .schedule-table span,
-  .schedule-table small {
-    font-size: var(--menu-font-size);
-    text-transform: uppercase;
-  }
-
-  .schedule-table small {
-    position: relative;
-    top: 10px;
-  }
-
-  .table .thead-light th,
-  .schedule-table tr td:first-child {
-    background: var(--primary-color);
-    border: 1px solid #212122;
-    color: var(--white-color);
-  }
-
-  .schedule-table .thead-light th {
-    border-bottom: 0;
-    text-transform: uppercase;
-  }
-
-  .table-bordered td, 
-  .table-bordered th {
-    border: 1px solid #212122;
-  }
-
-  .table-bordered td {
-    padding-bottom: 22px;
-  }
-
-  .table td, .table th {
-    padding: 1rem;
-  }
-
+ -webkit-transition: width 4.50s ease !important;
+ -moz-transition: width 4.50s ease !important;
+   -o-transition: width 4.50s ease !important;
+      transition: width 4.50s ease !important;
+ }
+  
 
   /*---------------------------------------
-      ABOUT & TEAM            
+      ABOUT            
   -----------------------------------------*/
 
   .about {
     background: var(--about-bg-color);
+  }
+
+  .id-container{
+    margin-left: 25%;
+  }
+
+  .id-photo {
+    width: 40%;
+    border-radius: 100%;
+  }
+
+  .id-healine {
+    margin-left: 15%;
   }
 
   .about-working-hours {

@@ -486,9 +486,10 @@
   transition: all 0.5s;
 }
 .el__heading {
-  color: #fff;
+  color: #E5CFAF;
   text-transform: uppercase;
   font-size: 18px;
+  
 }
 .el__content {
   z-index: -1;
@@ -511,8 +512,7 @@
   transition: all 0.5s 1.4s;
 }
 .el__text {
-  text-transform: uppercase;
-  font-size: 40px;
+  font-size: 20px;
   color: #fff;
 }
 .el__close-btn {
@@ -678,7 +678,7 @@
 .el:nth-child(1) .el__bg:before {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-3.jpg");
+  background-image: url("../images/tnw.png");
 }
 .el:nth-child(2) {
   -webkit-transform: translate3d(105.20833%, 0, 0);
@@ -706,7 +706,7 @@
 .el:nth-child(2) .el__bg:before {
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-4.jpg");
+  background-image: url("../images/keyboard.png");
 }
 .el:nth-child(3) {
   -webkit-transform: translate3d(210.41667%, 0, 0);
@@ -734,7 +734,7 @@
 .el:nth-child(3) .el__bg:before {
   -webkit-transition-delay: 0.2s;
           transition-delay: 0.2s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-5.jpg");
+  background-image: url("../images/scraper.gif");
 }
 .el:nth-child(4) {
   -webkit-transform: translate3d(315.625%, 0, 0);
@@ -762,7 +762,7 @@
 .el:nth-child(4) .el__bg:before {
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-6.jpg");
+  background-image: url("../images/mada.png");
 }
 
 .el:hover .el__bg:after {

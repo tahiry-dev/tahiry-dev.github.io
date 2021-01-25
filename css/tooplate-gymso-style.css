@@ -58,6 +58,11 @@
     font-family: var(--base-font-family);
   }
 
+  body, html { 
+    overflow-x: hidden;
+    min-width: 360px;
+   }
+
 
   /*---------------------------------------
      TYPOGRAPHY              

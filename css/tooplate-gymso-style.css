@@ -862,6 +862,11 @@ figure.effect-ming:hover img { opacity: 0.4; }
     color: var(--primary-color);
   }
 
+  .footer-social-icon {
+    display: block;
+    text-align: center;
+  }
+
 
   /*---------------------------------------
      RESPONSIVE STYLES              

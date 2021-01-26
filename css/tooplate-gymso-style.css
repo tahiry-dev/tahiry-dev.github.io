@@ -155,7 +155,7 @@
 
   .custom-btn.bg-color:hover,
   .custom-btn.bg-color:focus {
-    background: rgba(255, 255, 255, 0.274);
+    background: rgba(255, 255, 255, 0.062);
     border-color: transparent;;
     color: var(--primary-color);
   }
@@ -341,6 +341,11 @@
 
   .hero-headline {
     font-weight: 100;
+    color: #666262;
+  }
+
+  .learn {
+    color: #666262 !important;
   }
 
   /*---------------------------------------

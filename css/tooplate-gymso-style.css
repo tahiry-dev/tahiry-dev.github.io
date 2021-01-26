@@ -343,53 +343,6 @@
     font-weight: 100;
   }
 
-
-
-  /*---------------------------------------
-      skills & Bar            
-  -----------------------------------------*/
-
-#resumeProficiencies {
-	float: left;
-	clear: right;
-	width: 500px;
-	margin: 20px 0px 30px 30px;
-}
-
-#resumeProficienciesTop {
-	float: left;
-	clear: right;
-	width: 100%;
-	margin: -5px 0px 0px 0px;
-	text-align: left;
-	font-weight: 600;
-}
-
-#resumeProficienciesBottom {
-	float: left;
-	clear: right;
-	width: 80%;
-	margin: 2px 0px 0px 0px;
-}
-
-.progress {
-	background:#e9e5e2;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#e9e5e2));
-	background-image: -webkit-linear-gradient(top, #dddddd, #e9e5e2);
-	background-image: -moz-linear-gradient(top, #dddddd, #e9e5e2);
-	background-image: -ms-linear-gradient(top, #dddddd, #e9e5e2);
-	background-image: -o-linear-gradient(top, #dddddd, #e9e5e2);
-	background-image: linear-gradient(top, #dddddd, #e9e5e2);  
-	height:20px; 
-	border-radius: 0px;
-	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
-	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
-	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	  
-}
-.progress-bar {
-  background-color: #C68465;
-}
-
   /*---------------------------------------
       ABOUT            
   -----------------------------------------*/
@@ -403,48 +356,10 @@
   }
 
   .id-photo {
-    width: 40%;
+    width: 50%;
     border-radius: 100%;
   }
 
-  .about-working-hours {
-    border-left: 2px solid;
-    padding-left: 3.5rem;
-  }
-
-  .about-working-hours strong {
-    color: var(--white-color);
-    opacity: 0.85;
-  }
-
-  .team-thumb {
-    position: relative;
-  }
-
-  .team-info {
-    background: var(--white-color);
-    border-radius: 0 0 2px 2px;
-    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
-    padding: 20px;
-    position: relative;
-  }
-
-  .team-info span {
-    font-weight: var(--font-weight-light);
-    opacity: 0.85;
-  }
-
-  .team-info .social-icon {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-  }
-
-  .team-info .social-icon li {
-    display: block;
-  }
-
-  
   /*---------------------------------------
      Portfolio               
   -----------------------------------------*/
@@ -658,7 +573,31 @@ font-size: 0;
 opacity: 0;
 }
 
+.custom-link-demo {
+  border-radius: 5px;
+  padding: 5px 24px;
+  color: #595957;
+}
 
+.custom-link-source {
+  border: 1px solid #595957;
+  border-radius: 5px;
+  padding: 5px 24px;
+  color:  #595957;
+  background-color: #E5CFAF;
+}
+
+.custom-link-source:hover {
+  color: #595957;
+  background: transparent;
+} 
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
 
 /*---------------*/
 /***** Ming *****/
@@ -980,6 +919,18 @@ figure.effect-ming:hover img { opacity: 0.4; }
   .tm-btn-big { padding: 12px 50px 14px; }
 }
 
+@media (min-width: 380px) {
+  .buttons > a {
+    margin-left: 10px;
+  } 
+}
 
+
+@media (max-width: 380px) {
+  .buttons {
+    flex-direction: column;
+  }
+ 
+}
 
 
